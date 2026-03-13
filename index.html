@@ -1,261 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio website for [Your Name]">
-    <title>Portfolio - [Your Name]</title>
+    <meta name="description" content="Professional portfolio website for Chingwala Bright">
+    <title>Portfolio - Chingwala Bright</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <!--
-    ============================================================
-    ASSIGNMENT 1: RESPONSIVE PORTFOLIO WEBSITE
-    CSC4035 Web Programming and Technologies
 
-    Instructions:
-    1. Complete all TODO sections below
-    2. Use semantic HTML5 elements
-    3. Ensure all images have alt attributes
-    4. Ensure all form inputs have labels
-    5. Test responsiveness at multiple breakpoints
-    ============================================================
-    -->
-
-    <!-- Navigation -->
     <header class="header">
-        <nav class="nav">
-            <!-- TODO: Create navigation with links to each section
-                 Requirements:
-                 - Logo/site title
-                 - Navigation links (Home, About, Projects, Contact)
-                 - Mobile-friendly (hamburger menu optional)
-                 - Active state indication
-            -->
+        <nav class="nav container">
+
             <div class="nav__logo">
-                <a href="#home">[Your Name]</a>
+                <a href="#home">Chingwala Bright</a>
             </div>
+
             <ul class="nav__menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
         </nav>
     </header>
 
+
     <main>
-        <!-- Hero Section -->
+
+        <!-- HERO SECTION -->
+
         <section id="home" class="hero">
-            <!-- TODO: Create hero section
-                 Requirements:
-                 - Your name (h1)
-                 - Professional tagline
-                 - Call-to-action button
-                 - Consider using Flexbox for layout
-            -->
-            <div class="hero__content">
-                <h1>Your Name</h1>
+            <div class="hero__content container">
+
+                <h1>Chingwala Bright</h1>
+
                 <p class="hero__tagline">
-                    <!-- TODO: Add your professional tagline -->
-                    Web Developer | Designer | Problem Solver
+                    Software Engineering Student | Web Developer | Problem Solver
                 </p>
+
                 <a href="#contact" class="btn btn--primary">Get In Touch</a>
+
             </div>
         </section>
 
-        <!-- About Section -->
+
+        <!-- ABOUT SECTION -->
+
         <section id="about" class="about">
-            <!-- TODO: Create about section
-                 Requirements:
-                 - Section heading (h2)
-                 - Profile image with alt text
-                 - Professional bio (150+ words)
-                 - Skills list
-                 - Use CSS Grid or Flexbox for layout
-            -->
             <div class="container">
+
                 <h2>About Me</h2>
+
                 <div class="about__content">
+
                     <div class="about__image">
-                        <!-- TODO: Add your profile image -->
-                        <img src="images/profile-placeholder.jpg" alt="Profile photo of [Your Name]">
+                        <img src="profile.jpg" alt="My profile photo">
                     </div>
+
                     <div class="about__text">
+
                         <p>
-                            <!-- TODO: Write your professional bio (150+ words)
-                                 Include:
-                                 - Your background
-                                 - Your interests in web development
-                                 - Your goals
-                                 - What makes you unique
-                            -->
-                            [Your professional bio goes here. Write at least 150 words about yourself,
-                            your background, your passion for web development, and your goals.
-                            This is your opportunity to introduce yourself to potential employers or clients.]
+
+                            My name is Chingwala Bright and I am a passionate software engineering student with a strong interest in web development and modern technology. I enjoy learning how websites and applications are built and how different technologies work together to solve
+                            real-world problems. My academic journey has helped me develop solid skills in HTML, CSS, and basic JavaScript, which allow me to build structured and responsive web pages. I am particularly interested in creating user-friendly
+                            web interfaces that are both visually appealing and functional. I believe that good web design should make information easy to understand and accessible to everyone. Through my studies and personal projects, I continue to improve
+                            my skills in front-end development, responsive design, and software development principles. My long-term goal is to become a professional software developer who builds systems that help businesses and communities operate more
+                            efficiently. I enjoy problem solving, learning new technologies, and collaborating with others on software projects. I am always eager to grow as a developer and to contribute to meaningful technological solutions.
+
                         </p>
+
                         <h3>Skills</h3>
+
                         <ul class="skills-list">
-                            <!-- TODO: Add your skills -->
                             <li>HTML5</li>
                             <li>CSS3</li>
                             <li>JavaScript</li>
-                            <li>Responsive Design</li>
-                            <!-- Add more skills -->
+                            <li>Responsive Web Design</li>
+                            <li>Git & GitHub</li>
+                            <li>MySQL Databases</li>
+                            <li>Software Development</li>
                         </ul>
+
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
+
+        <!-- PROJECTS SECTION -->
+
         <section id="projects" class="projects">
-            <!-- TODO: Create projects section
-                 Requirements:
-                 - Section heading (h2)
-                 - Minimum 3 project cards
-                 - Each card: image, title, description, link(s)
-                 - Use CSS Grid for card layout
-            -->
+
             <div class="container">
+
                 <h2>My Projects</h2>
+
                 <div class="projects__grid">
-                    <!-- Project Card 1 -->
+
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project1-placeholder.jpg" alt="Screenshot of Project 1">
+
+                        <img src="images/project1.jpg" alt="Student management system project">
+
                         <div class="project-card__content">
-                            <h3>Project Title 1</h3>
+
+                            <h3>Student Management System</h3>
+
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                A web-based system designed to help manage student records, attendance, and academic data. The system focuses on improving efficiency for school administrators.
                             </p>
+
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
                                 <a href="#" class="btn btn--small btn--outline">GitHub</a>
                             </div>
+
                         </div>
                     </article>
 
-                    <!-- Project Card 2 -->
+
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project2-placeholder.jpg" alt="Screenshot of Project 2">
+
+                        <img src="images/project2.jpg" alt="Blood donor application project">
+
                         <div class="project-card__content">
-                            <h3>Project Title 2</h3>
+
+                            <h3>Blood Donor Finder App</h3>
+
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                A concept application designed to connect hospitals with nearby blood donors quickly during emergencies using a centralized donor database.
                             </p>
+
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
                                 <a href="#" class="btn btn--small btn--outline">GitHub</a>
                             </div>
+
                         </div>
                     </article>
 
-                    <!-- Project Card 3 -->
+
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project3-placeholder.jpg" alt="Screenshot of Project 3">
+
+                        <img src="images/project3.jpg" alt="Personal portfolio website project">
+
                         <div class="project-card__content">
-                            <h3>Project Title 3</h3>
+
+                            <h3>Personal Portfolio Website</h3>
+
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                A responsive portfolio website built using HTML5 and CSS3 to showcase projects, skills, and professional information.
                             </p>
+
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
                                 <a href="#" class="btn btn--small btn--outline">GitHub</a>
                             </div>
+
                         </div>
                     </article>
 
-                    <!-- TODO: Add more project cards if desired -->
                 </div>
             </div>
+
         </section>
 
-        <!-- Contact Section -->
+
+        <!-- CONTACT SECTION -->
+
         <section id="contact" class="contact">
-            <!-- TODO: Create contact section
-                 Requirements:
-                 - Section heading (h2)
-                 - Contact form with:
-                   - Name field (required)
-                   - Email field (required, type="email")
-                   - Message textarea (required)
-                   - Submit button
-                 - All inputs must have associated labels
-                 - Use HTML5 validation attributes
-            -->
+
             <div class="container">
+
                 <h2>Contact Me</h2>
-                <form class="contact__form" action="#" method="POST">
+
+                <form class="contact__form">
+
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            required
-                            placeholder="Your Name"
-                            minlength="2"
-                        >
+                        <input type="text" id="name" name="name" required minlength="2" placeholder="Your Name">
                     </div>
+
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            required
-                            placeholder="your.email@example.com"
-                        >
+                        <input type="email" id="email" name="email" required placeholder="you@email.com">
                     </div>
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input
-                            type="text"
-                            id="subject"
-                            name="subject"
-                            placeholder="What is this regarding?"
-                        >
-                    </div>
+
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            required
-                            rows="5"
-                            placeholder="Your message..."
-                            minlength="10"
-                        ></textarea>
+                        <textarea id="message" name="message" required minlength="10" rows="5" placeholder="Your message"></textarea>
                     </div>
+
                     <button type="submit" class="btn btn--primary">Send Message</button>
+
                 </form>
+
             </div>
+
         </section>
+
     </main>
 
-    <!-- Footer -->
+
     <footer class="footer">
-        <!-- TODO: Create footer
-             Requirements:
-             - Copyright notice
-             - Social media links (optional)
-             - Back to top link (optional)
-        -->
+
         <div class="container">
-            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+
+            <p>© 2026 Chingwala Bright. All rights reserved.</p>
+
             <nav class="footer__social">
-                <!-- TODO: Add your social media links -->
                 <a href="#" aria-label="GitHub">GitHub</a>
                 <a href="#" aria-label="LinkedIn">LinkedIn</a>
                 <a href="#" aria-label="Twitter">Twitter</a>
             </nav>
+
         </div>
+
     </footer>
+
 </body>
+
 </html>
